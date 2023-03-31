@@ -28,8 +28,6 @@ jobs:
 
       - name: Lint
         run: |
-#          go vet -stdmethods=false $(go list ./...)
-          
           if ! test -z "$(gofmt -l .)"; then
             echo "Please run 'gofmt -l -w .'"
             exit 1
