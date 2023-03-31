@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	jsonTagKey = "json"
+	jsonTagKey ="json"
 	jsonTagSep = ','
 )
 
